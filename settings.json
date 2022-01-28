@@ -1,0 +1,84 @@
+{
+  "Account": {
+    "username": "xxxx",
+    "password": "xxxx",
+    "Currency": "trx",
+    "GEMMode": "OFF",
+    "CalculatorMode": "OFF"
+  },
+  "Target Profit": "100",
+  "Target Win": "100000",
+  "Lose Target": "0",
+  "Save Profit": "0",
+  "MaxLS": "0",
+  "Reset Seed": "250",
+  "Show Price": "OFF",
+  "Play Game": "dice",
+  "Betset": [
+    {
+      "Name Bet Set": "00 - @BEDUCODE SETTING",
+      "Base Bet": "0.00001",
+      "Chance": "98",
+      "Random Chance": {
+        "Toggle": "ON",
+        "Min": "95",
+        "Max": "98"
+      },
+      "Bet": {
+        "Bet": "Hi",
+        "Hi / Low": {
+          "Toggle": "OFF",
+          "If Lose": "1",
+          "If Win": "1"
+        }
+      },
+      "Mode1": {
+        "Toggle": "ON",
+        "Minbet": "0.000001",
+        "Profit": "0.00000001",
+        "Multi Win": {
+          "LCMin": "90",
+          "LCMax": "90"
+        },
+        "Multi Lose": {
+          "LCMin": "1",
+          "LCMax": "4"
+        },
+        "Multi Limit": {
+          "LCMin": "1",
+          "LCMax": "2"
+        }
+      },
+      "Mode2": {
+        "Toggle": "OFF",
+        "Profit": "0.00000001",
+        "GateWay": "35",
+        "Multi Win": {
+          "LCMin": "94",
+          "LCMax": "94"
+        },
+        "Multi Lose": {
+          "LCMin": "1",
+          "LCMax": "1"
+        }
+      },
+      "Mode3": {
+        "Toggle": "OFF",
+        "Profit": "0.00000001",
+        "IfLose": "1.4",
+        "IfWin": "1",
+        "Reset If Profit": "1",
+        "Multi Win": {
+          "Toggle": "ON",
+          "LCMin": "47",
+          "LCMax": "47"
+        },
+        "Multi Lose": {
+          "Toggle": "ON",
+          "LCMin": "15",
+          "LCMax": "47"
+        }
+      }
+    }
+  ]
+}
