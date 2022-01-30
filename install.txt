@@ -30,3 +30,4 @@ faunadb
 keyboard
 websocket-client
 random_user_agent
+flask
