@@ -16,8 +16,8 @@
   "Play Game": "dice",
   "Betset": [
     {
-      "Name Bet Set": "00 - @BEDUCODE SETTING",
-      "Base Bet": "0.00001",
+      "Name Bet Set": "00 - @riosuyanto",
+      "Base Bet": "0.000001",
       "Chance": "98",
       "Random Chance": {
         "Toggle": "ON",
