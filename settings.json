@@ -1,12 +1,14 @@
 {
   "Account": {
-    "Auth Key": "xxxx",
-    "CF": "xxxx",
+    "username": "xxxx",
+    "password": "xxxx",
+    "2FA": "OFF",
     "Currency": "trx",
-    "Auto Proxy": "OFF"
+    "GEMMode": "OFF",
+    "CalculatorMode": "OFF"
   },
-  "Target Profit": "1000",
-  "Target Win": "100000000",
+  "Target Profit": "100",
+  "Target Win": "100000",
   "Lose Target": "0",
   "Save Profit": "0",
   "MaxLS": "0",
@@ -15,8 +17,8 @@
   "Play Game": "dice",
   "Betset": [
     {
-      "Name Bet Set": "00 - @BEDUCODE SETTING",
-      "Base Bet": "0.000015",
+      "Name Bet Set": "00 - @riosuyanto",
+      "Base Bet": "0.00001",
       "Chance": "98",
       "Random Chance": {
         "Toggle": "ON",
@@ -33,7 +35,7 @@
       },
       "Mode1": {
         "Toggle": "ON",
-        "Minbet": "0.0000015",
+        "Minbet": "0.000001",
         "Profit": "0.00000001",
         "Multi Win": {
           "LCMin": "6",
@@ -50,51 +52,32 @@
       },
       "Mode2": {
         "Toggle": "OFF",
-        "Prebet": "0.00000001",
         "Profit": "0.00000001",
-        "GateWay": "50",
+        "GateWay": "35",
         "Multi Win": {
-          "LCMin": "49",
-          "LCMax": "49"
+          "LCMin": "94",
+          "LCMax": "94"
         },
         "Multi Lose": {
           "LCMin": "1",
-          "LCMax": "5"
+          "LCMax": "1"
         }
       },
       "Mode3": {
         "Toggle": "OFF",
-        "Prebet": "0.00000001",
         "Profit": "0.00000001",
         "IfLose": "1.4",
         "IfWin": "1",
         "Reset If Profit": "1",
         "Multi Win": {
           "Toggle": "ON",
-          "LCMin": "49",
-          "LCMax": "49"
+          "LCMin": "47",
+          "LCMax": "47"
         },
         "Multi Lose": {
           "Toggle": "ON",
           "LCMin": "15",
           "LCMax": "47"
-        }
-      },
-      "Mode4": {
-        "Toggle": "OFF",
-        "Prebet": "0.00000001",
-        "Profit": "0.00000001",
-        "Gateway": "30",
-        "Passrol": "25",
-        "Multipler": "1.058",
-        "Limitlose": "100",
-        "Multi Win": {
-          "LCMin": "49",
-          "LCMax": "49"
-        },
-        "Multi Lose": {
-          "LCMin": "5",
-          "LCMax": "5.25"
         }
       }
     }
